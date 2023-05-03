@@ -200,5 +200,5 @@ def main(args):
 
 if __name__ == '__main__':
     args = parse_args()
-    # args.restore = "ray_results/CORL2022/LSTM_airper/seed100/1stphase/exp1/checkpoint_3750/checkpoint-3750"
+    # args.restore = "ray_results/RAL2023/Ours/setTransformer_opt_v2/50x50_env/seed100/2ndphase/exp1/MixinPPOTrainer/MixinPPOTrainer_SceneEnv_0_2022-04-06_13-04-49a0r8zsqv/checkpoint_8000"
     main(args)

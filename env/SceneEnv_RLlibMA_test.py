@@ -826,8 +826,8 @@ class SceneEnv(MAScene_Base):
         # Initialize the window used for rendering
         if not self.render_enabled:
             self.plot_scene = True
-            self.plot_beliefs = False
-            self.plot_image = False
+            self.plot_beliefs = True
+            self.plot_image = True
             if self.plot_scene:
                 self.fig, self.ax = self.init_plot_scene(num_figure=1)
                 # camera = Camera(fig)

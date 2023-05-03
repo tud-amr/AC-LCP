@@ -256,7 +256,7 @@ def main(args):
 
     ## MAIN LOOP
     obs = env.reset()
-    action = agent.compute_action(obs[0], policy_id=list(agent.config['multiagent']['policies'].keys())[0] if env.multiagent_policy else "default_policy")
+    #action = agent.compute_action(obs[0], policy_id=list(agent.config['multiagent']['policies'].keys())[0] if env.multiagent_policy else "default_policy")
     # take the first key from a dict
 
 
