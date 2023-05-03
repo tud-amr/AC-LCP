@@ -174,7 +174,7 @@ class LSTM_Encoder(TFModelV2):
         self.register_variables(self.base_model.variables)
 
         ## PLOT SUMMARY OF THE MODEL
-        tf.keras.utils.plot_model(self.base_model, "PPO_model.png")
+        # tf.keras.utils.plot_model(self.base_model, "PPO_model.png")
         self.base_model.summary()
 
 
